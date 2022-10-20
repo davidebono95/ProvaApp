@@ -1,0 +1,31 @@
+<core:FragmentDefinition xmlns:layout="sap.ui.layout"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core">
+	<Popover
+		id="myPopover"
+		title="{detail>/name}" 
+		titleAlignment="Center" 
+		class="sapUiResponsivePadding--header sapUiResponsivePadding--footer"
+		placement="Bottom"
+		>
+		<footer>
+			<OverflowToolbar>
+				<Button
+
+					id="scelta1"
+					text="Mi piace!!"
+					press="scelta1"
+					type="Success" />
+					<ToolbarSpacer/>
+					<Button 
+					id="scelta2"
+					text="Non mi piace!!"
+					press="scelta2"
+					type="Negative" />
+					
+			</OverflowToolbar>
+		</footer>
+		
+		<Image src="{detail>/pic}" width="30em" densityAware="false" />
+	</Popover>
+</core:FragmentDefinition>

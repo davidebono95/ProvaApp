@@ -1,0 +1,13 @@
+{
+  "generator-ui5-app": {
+    "application": "myapp",
+    "namespace": "com.davide",
+    "framework": "OpenUI5",
+    "frameworkVersion": "1.107.1",
+    "author": "",
+    "initrepo": false,
+    "appId": "com.davide.myapp",
+    "appURI": "com/davide/myapp",
+    "setupCompleted": true
+  }
+}

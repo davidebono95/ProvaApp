@@ -1,0 +1,44 @@
+{
+  "car": [
+    {
+      "id": 0,
+      "style": "",
+      "name": "Aston Martin",
+      "year": 2009,
+      "price": 15000,
+      "pic": " https://www.motorionline.com/wp-content/uploads/2022/03/Aston-Martin-Vantage-AddArmor-1-1024x678.jpg"
+    },
+    {
+      "id": 1,
+      "style": "green",
+      "name": "Mustang",
+      "year": 1982,
+      "price": 20000,
+      "pic": "https://www.infomotori.com/content/uploads/2021/05/ford-mustang-mach-1-2021-728x415.jpg "
+    },
+    {
+      "id": 2,
+      "style": "red",
+      "name": "Toyota",
+      "year": 2007,
+      "price": 12000,
+      "pic": "https://content.presspage.com/uploads/1523/1920_toyotac-hrgr19.jpg?10000 "
+    },
+    {
+      "id": 3,
+      "style": "",
+      "name": "Land Rover",
+      "year": 1993,
+      "price": 13000,
+      "pic": "https://cdn.drivek.it/configurator-imgs/cars/it/800/LAND-ROVER/RANGE-ROVER/40713_SUV-5-DOORS/land-rover-range-rover-2021-side-front.jpg "
+    },
+    {
+      "id": 4,
+      "style": "",
+      "name": "Ford",
+      "year": 2008,
+      "price": 16000,
+      "pic": "https://www.gpas-cache.ford.com/guid/899edeef-5ba1-30b2-81dd-b4a082241bc5.png "
+    }
+  ]
+}
