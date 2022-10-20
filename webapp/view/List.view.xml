@@ -1,6 +1,5 @@
 <mvc:View controllerName="com.davide.myapp.controller.List" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m">
-    
-    <Table id="tabella" items="{car>/car}" headerText="Cars" width="100%"  >
+    <Table id="tabella" items="{car>/car}" headerText="Cars" width="100%">
         <columns>
             <Column>
                 <Text text="Modello" />
@@ -11,14 +10,13 @@
             <Column>
                 <Text text="Prezzo" />
             </Column>
-        
+
         </columns>
         <items>
-            <ColumnListItem type="Navigation" press="handlePopoverPress" class="{car>style}" >
-                
+            <ColumnListItem type="Navigation" press="handlePopoverPress">
                 <Text text="{car>name}" />
-                <Text text="{car>year}"  />
-                <ObjectNumber number="{path: 'car>price',type: 'sap.ui.model.type.Float', formatOptions: {groupingEnabled:true, groupingSeparator: '.'}}"  textAlign="Center" unit="€" />
+                <Text text="{car>year}" />
+                <ObjectNumber number="{path: 'car>price',type: 'sap.ui.model.type.Float', formatOptions: {groupingEnabled:true, groupingSeparator: '.'}}" textAlign="Center" unit="€" />
             </ColumnListItem>
         </items>
     </Table>

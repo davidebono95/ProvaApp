@@ -2,7 +2,6 @@
   "car": [
     {
       "id": 0,
-      "style": "",
       "name": "Aston Martin",
       "year": 2009,
       "price": 15000,
@@ -10,7 +9,6 @@
     },
     {
       "id": 1,
-      "style": "green",
       "name": "Mustang",
       "year": 1982,
       "price": 20000,
@@ -18,7 +16,6 @@
     },
     {
       "id": 2,
-      "style": "red",
       "name": "Toyota",
       "year": 2007,
       "price": 12000,
@@ -26,7 +23,6 @@
     },
     {
       "id": 3,
-      "style": "",
       "name": "Land Rover",
       "year": 1993,
       "price": 13000,
@@ -34,7 +30,6 @@
     },
     {
       "id": 4,
-      "style": "",
       "name": "Ford",
       "year": 2008,
       "price": 16000,
